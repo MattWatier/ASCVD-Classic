@@ -33,7 +33,7 @@
         @extend %disabledinput;
     }
     input,
-	// input[type="text"],
+	//   input[type="text"],
 	// input[type="number"],
 	// input[type="search"],
 	// input[type="password"],
@@ -59,11 +59,11 @@
 
 
 .input-holder {
-	[type='text'], [type='password'], [type='date'], [type='datetime'], [type='datetime-local'], [type='month'], [type='week'], [type='email'], [type='number'], [type='search'], [type='tel'], [type='time'], [type='url'], [type='color'], textarea{
-		@include baseline-font(0);
-		line-height: 1em;
+	[type='text'], [type='password'], [type='date'], [type='datetime'], [type='datetime-local'], [type='month'], [type='week'], [type='email'], [type='number'], [type='search'], [type='tel'], [type='time'], [type='url'], [type='color'], textarea,button,.button,{
+		font-size: ms(0);
+		line-height: ms(0);
 		// *default* all inputs are medium sized
-		padding:rem-calc(ms(0)*.5) rem-calc(ms(0)*.75);
+		padding:rem-calc(ms(0)*.75) rem-calc(ms(0)*.75);
 		height: rem-calc(ms(0)* 2.5);
 		// *landscape phones* inputs shrink on short screens that are smaller then an Ipad
 		@include bp(md-down){
@@ -81,27 +81,9 @@
 		}
 
 	}
-	button,.button{
-		@include baseline-font(0);
-		line-height: 1em;
-		// *default* all inputs are medium sized
-		height: rem-calc(ms(0)* 2.5);
-		// *landscape phones* inputs shrink on short screens that are smaller then an Ipad
-		@include bp(md-down){
-			@include bp(xs-height-down){
-				height: rem-calc(ms(0)*2.25);
-			}
-		}
-		// * desktop *
-		@include bp(md){
-			@include bp(md-height){
-			height: rem-calc(ms(0)*2);
-			padding: .25rem .5rem 0;
-			}
-		}
-	}
 	select,option{
-		@include baseline-font(0);
+		font-size: 1rem;
+		line-height: 1rem;
 		// *default* all inputs are medium sized
 		height: rem-calc(ms(0)* 2.5);
 		// *landscape phones* inputs shrink on short screens that are smaller then an Ipad

@@ -13,7 +13,7 @@
 $nav-list-selected:color(rebrand-color($primary-color,3),20);
 $nav-list-border-selected:color(rebrand-color($primary-color,3),20);
 .nav-list{
-	@extend %normal;
+
 	
 	a,.list-item-wrapper{
 		display: table;
@@ -26,7 +26,7 @@ $nav-list-border-selected:color(rebrand-color($primary-color,3),20);
 	}
 	li{
 		.text + .fa, .fa+.text{padding-left: .5em;}
-
+		@extend %normal;
 		$icon:$fa-var-arrow-circle-right;
 		@include fa-holder($icon,'dynamic');
 		padding:.25rem 1rem;
@@ -35,9 +35,14 @@ $nav-list-border-selected:color(rebrand-color($primary-color,3),20);
 			a{color:fontcolor($black,'loud');}
 			
 		}
-		&.selected{background-color: $nav-list-selected;
-			&, &:hover a{color:fontcolor($real-black);}
-			a,a:hover{cursor:pointer;cursor:context-menu;} }
+		&.selected{ 
+			background-color: $nav-list-selected;
+		&,&:hover a{
+			color:fontcolor($real-black);
+			 cursor:pointer;
+			 cursor:context-menu;
+			} 
+		}
 	}
 	ul{
 		margin: 0;
@@ -46,33 +51,6 @@ $nav-list-border-selected:color(rebrand-color($primary-color,3),20);
 		position: relative;
 		list-style-type: none;
 	}
-	&.large{
-		border-top:$typography-highlight-color 2px solid;
-		margin-top: -($h1-spacing / 2);
-		padding-top:$h3-spacing;
-		margin-bottom:$h1-spacing;
-		@extend .h3;
-	}
-	&.medium{
-		margin-bottom:$h2-spacing;
-		padding-top:.5rem;
-		margin-top:-.5rem;
-		border-top:2px solid grey(30);
-		@extend .h4;
-	}
-	&.small{
-		margin-bottom:$h3-spacing;
-		@extend %quiet;
-		li{
-			border:1px solid grey(20);
-			border-left-width: 0;
-			border-right-width:0;
-			margin-bottom: 0;
-			margin-top: -1px;
-			}
-	}
-	&.large,&.medium,&.small{
-		margin-top:0}
 }
 
 /**
@@ -104,3 +82,36 @@ $nav-list-border-selected:color(rebrand-color($primary-color,3),20);
 *	</ul>
 *	</nav>
 */
+
+
+
+
+h1+.nav-list,.large.nav-list{
+	border-top:$typography-highlight-color 2px solid;
+	margin-top: -($h1-spacing / 2);
+	padding-top:$h3-spacing;
+	margin-bottom:$h1-spacing;
+	li{@extend .h3;}
+}
+
+h2+.nav-list,.medium.nav-list{
+	margin-bottom:$h2-spacing;
+	padding-top:.5rem;
+	margin-top:-.5rem;
+	border-top:2px solid grey(30);
+	li{@extend .h4;}
+}
+h3+.nav-list,.small.nav-list{
+	margin-bottom:$h3-spacing;
+	@extend %normal;
+	li{
+		@extend %bold;
+		border:1px solid grey(20);
+		border-left-width: 0;
+		border-right-width:0;
+		margin-bottom: 0;
+		margin-top: -1px;
+		}
+}
+.nav-list.large,.nav-list.medium,.nav-list.small{
+	margin-top:0}

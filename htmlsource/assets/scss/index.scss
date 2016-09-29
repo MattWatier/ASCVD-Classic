@@ -78,6 +78,7 @@ body{font-size:$ms-base;}
 @import "components/table/table";
 @import "components/table/table-stripped";
 @import "components/table/table-seperator";
+@import "components/table/table-seperator.states";
 @import "components/table/table-sortable";
 @import "components/table/table-icon-cell";
 @import "components/table/table-cell.states";
@@ -112,6 +113,7 @@ body{font-size:$ms-base;}
 @import "vendor/foundation/override.reveal";
 @import "vendor/foundation/override.slider";
 @import "vendor/foundation/override.switch";
+@import "vendor/foundation/override.switch.states";
 @import "vendor/foundation/override.tooltip";
 @import "vendor/foundation/override.close-button";
 @import "vendor/foundation/override.callout";

@@ -83,9 +83,8 @@ $tab-lighttext:$global-default-light-text;
 			padding-left: 0;
 			padding-right: 0;
 			cursor:context-menu;
-      margin-bottom:-2px;
-      bottom:-1px;
-      position: relative;;
+			bottom:-1px;
+			position: relative;
 			a{
 				color:color-contrast($tab-selected-color,$tab-darktext,$tab-lighttext);cursor:context-menu;
 			}
@@ -135,14 +134,14 @@ $tab-lighttext:$global-default-light-text;
 	@include bp(xs-down){
 			width:100%;
 			clear:both;
-			@include flexbox();
+			@include acc-flexbox();
 			flex-direction:row;
 			flex-wrap:wrap;
 			align-items:stretch;
 			align-content: stretch;
 			margin:.2em 0;
-			li{@include flex(1 1 auto);
-			&.icon{@include flex(0 0 2em);}
+			li{@include acc-flex(1 1 auto);
+			&.icon{@include acc-flex(0 0 2em);}
 			}
 	}
 }

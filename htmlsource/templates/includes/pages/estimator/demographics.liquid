@@ -11,7 +11,7 @@
     </div>
     <div class="input-holder">
         <div class="input-spacer">
-            <div class="button-group selectable small radius" data-bind="foreach:$root.FormData.sex">
+            <div class="button-group selectable expanded small radius" data-bind="foreach:$root.FormData.sex">
                 <a href="" style="white-space: nowrap;" class="button small" data-bind="click:function(){appmodel.Form().Sex(label)},css:{'selected':$root.Form().Sex() == label}" ><i class="fa fa-check"></i><span data-bind="text:label"></span></a>
             </div>
 {% comment %}            <select name="inputSex" id="inputSex" data-bind="

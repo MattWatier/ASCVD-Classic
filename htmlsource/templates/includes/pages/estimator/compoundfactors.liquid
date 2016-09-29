@@ -6,7 +6,7 @@
             </label>
         </div>
         <div class="input-holder">
-            <div class="button-group selectable small radius" data-bind="foreach:$root.FormData.diabetic">
+            <div class="button-group selectable expanded small radius" data-bind="foreach:$root.FormData.diabetic">
                 <a href="" style="white-space: nowrap;" class="button small" data-bind="click:function(){appmodel.Form().Diabetic(value)},css:{'selected':$root.Form().Diabetic() == value}" ><i class="fa fa-check"></i><span data-bind="text:label"></span></a>
             </div>
             {% comment %}<div class="switch-input-space">
@@ -29,10 +29,11 @@
             </label>
         </div>
         <div class="input-holder">
-            <div class="button-group selectable small radius" data-bind="foreach:$root.FormData.smoker">
+            <div class="button-group selectable expanded small radius" data-bind="foreach:$root.FormData.smoker">
                 <a href="" style="white-space: nowrap;" class="button small" data-bind="click:function(){appmodel.Form().Smoker(value)},css:{'selected':$root.Form().Smoker() == value}" ><i class="fa fa-check"></i><span data-bind="text:label"></span></a>
             </div>
-            {% comment %}<div class="switch-input-space">
+            {% comment %}
+            <div class="switch-input-space">
                 <div class="switch switch-2x radius small">
                     <input class="switch-input" id="check-smoker" type="checkbox" name="smoker" data-bind="checked: Form().Smoker, checkedValue:'Smoker'" >
                     <label class="switch-paddle" for="check-smoker">
@@ -45,7 +46,8 @@
                         </span>
                     </label>
                 </div>
-            </div>{% endcomment %}
+            </div>
+            {% endcomment %}
         </div>
         <div class="hint"></div>
     </div>
@@ -58,7 +60,7 @@
         <div class="input-holder">
 
             
-                <div class="button-group selectable small radius expanded" data-bind="foreach:$root.FormData.diabetic">
+                <div class="button-group selectable expanded small radius expanded" data-bind="foreach:$root.FormData.diabetic">
                     <a href="" style="white-space: nowrap;" class="button small" data-bind="click:function(){appmodel.Form().Hypertension(value)},css:{'selected':$root.Form().Hypertension() == value}" ><i class="fa fa-check"></i><span data-bind="text:label"></span></a>
                 </div>
                {% comment %}
@@ -75,7 +77,7 @@
                         </span>
                     </label>
                 </div></div> 
-                     {% endcomment %}       
+               {% endcomment %}       
             
         </div>
         <div class="hint"></div>
