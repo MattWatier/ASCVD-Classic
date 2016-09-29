@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget android-versionCode="31412" id="org.acc.ascvd" ios-CFBundleVersion="3.14.12" version="2.3.3" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <preference name="loglevel" value="DEBUG" />
+    <feature name="EmailComposer">
+        <param name="android-package" value="de.appplant.cordova.emailcomposer.EmailComposer" />
+    </feature>
+    <feature name="UniversalAnalytics">
+        <param name="android-package" value="com.danielcwilson.plugins.analytics.UniversalAnalyticsPlugin" />
+    </feature>
+    <feature name="SplashScreen">
+        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="StatusBar">
+        <param name="android-package" value="org.apache.cordova.statusbar.StatusBar" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="Keyboard">
+        <param name="android-package" onload="true" value="org.apache.cordova.labs.keyboard.Keyboard" />
+    </feature>
+    <allow-intent href="market:*" />
+    <preference name="android-minSdkVersion" value="19" />
+    <preference name="Orientation" value="default" />
+    <icon density="mdpi" src="www/res/android/icons/icon_mdpi.png" />
+    <icon density="xhdpi" src="www/res/android/icons/icon_xhdpi.png" />
+    <icon density="ldpi" src="www/res/android/icons/icon_ldpi.png" />
+    <icon density="hdpi" src="www/res/android/icons/icon_hdpi.png" />
+    <icon density="xxhdpi" src="www/res/android/icons/icon_xxhdpi.png" />
+    <icon density="xxxhdpi" src="www/res/android/icons/icon_xxxhdpi.png" />
+    <splash density="land-ldpi" src="www/res/android/splash/splash-land-ldpi.png" />
+    <splash density="land-mdpi" src="www/res/android/splash/splash-land-mdpi.png" />
+    <splash density="port-ldpi" src="www/res/android/splash/splash-port-ldpi.png" />
+    <splash density="land-hdpi" src="www/res/android/splash/splash-land-hdpi.png" />
+    <splash density="port-mdpi" src="www/res/android/splash/splash-port-mdpi.png" />
+    <splash density="port-hdpi" src="www/res/android/splash/splash-port-hdpi.png" />
+    <splash density="land-xhdpi" src="www/res/android/splash/splash-land-xhdpi.png" />
+    <splash density="port-xhdpi" src="www/res/android/splash/splash-port-xhdpi.png" />
+    <name>ASCVD Risk Estimator</name>
+    <description>
+        The ASCVD Risk Estimator is published jointly by the American College of Cardiology (ACC) and the American Heart Association (AHA) to help health care providers and patients estimate 10-year and lifetime risks for atherosclerotic cardiovascular disease (ASCVD) using the Pooled Cohort Equations and lifetime risk prediction tools. 
+    </description>
+    <author email="info@acc.org" href="http://acc.org">
+        American College of Cardiology Foundation
+    </author>
+    <content src="index.html" />
+    <preference name="StatusBarOverlaysWebView" value="false" />
+    <preference name="Fullscreen" value="false" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <access launch-external="yes" origin="mailto:*" />
+    <icon src="www/res/icon.png" />
+    <preference name="FadeSplashScreen" value="true" />
+    <preference name="FadeSplashScreenDuration" value="2000" />
+    <preference name="ShowSplashScreenSpinner" value="false" />
+    <preference name="AutoHideSplashScreen" value="false" />
+</widget>

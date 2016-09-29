@@ -1,0 +1,34 @@
+{
+  "name": "Base-Styles",
+  "version": "0.0.0",
+  "authors": [
+    "Matt Watier"
+  ],
+  "license": "MIT",
+  "homepage": "acc.org",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bristol":"https://github.com/MattWatier/ACC-Bristol_Foundation6.git",
+    "fastclick": ">=0.6.11",
+    "knockout": "~3.4.0",
+    "foundation-sites": "~6.0.5",
+    "jquery-ui": "~1.11.4",
+    "waypoints": "~4.0.0",
+    "pagerjs": "~1.0.1",
+    "animate.css": "~3.5.1",
+    "koui": "https://github.com/finnsson/koui.git",
+    "underscore": "~1.8.3",
+    "jquery.panzoom": "~2.0.5"
+  },
+  "description": "ASCVD Prototype build",
+  "main": "",
+  "moduleType": [
+    "node"
+  ]
+}
