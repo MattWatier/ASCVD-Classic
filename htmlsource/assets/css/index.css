@@ -4871,121 +4871,6 @@ table a.button, table button, table .inline-list, table .nobutton {
 *		</tfoot>
 *	</table>
 */
-.table .error.seperator td, .table .error.seperator:nth-child(even) td:nth-child(odd) {
-  background-color: #dc3443;
-  /* will be "on top", if browser supports it */
-  background-image: linear-gradient(to left, #df4856, #d02434);
-  /* these will reset other properties, like background-position, but it does know what you mean */
-  background: #dc3443;
-  background: linear-gradient(to left, #df4856, #d02434);
-  border-top: #d02434 1px solid;
-  border-bottom: #d02434 2px solid;
-  color: #fff;
-}
-
-.table .warning.seperator td, .table .warning.seperator:nth-child(even) td:nth-child(odd) {
-  background-color: #ec982f;
-  /* will be "on top", if browser supports it */
-  background-image: linear-gradient(to left, #eea244, #ea8b15);
-  /* these will reset other properties, like background-position, but it does know what you mean */
-  background: #ec982f;
-  background: linear-gradient(to left, #eea244, #ea8b15);
-  border-top: #ea8b15 1px solid;
-  border-bottom: #ea8b15 2px solid;
-  color: #333333;
-}
-
-.table .success.seperator td, .table .success.seperator:nth-child(even) td:nth-child(odd) {
-  background-color: #19da6c;
-  /* will be "on top", if browser supports it */
-  background-image: linear-gradient(to left, #27e679, #16c461);
-  /* these will reset other properties, like background-position, but it does know what you mean */
-  background: #19da6c;
-  background: linear-gradient(to left, #27e679, #16c461);
-  border-top: #16c461 1px solid;
-  border-bottom: #16c461 2px solid;
-  color: #fff;
-}
-
-.table .info.seperator td, .table .info.seperator:nth-child(even) td:nth-child(odd) {
-  background-color: #b3b3b3;
-  /* will be "on top", if browser supports it */
-  background-image: linear-gradient(to left, #bbbbbb, #a1a1a1);
-  /* these will reset other properties, like background-position, but it does know what you mean */
-  background: #b3b3b3;
-  background: linear-gradient(to left, #bbbbbb, #a1a1a1);
-  border-top: #a1a1a1 1px solid;
-  border-bottom: #a1a1a1 2px solid;
-  color: #333333;
-}
-
-.table .highlighted.seperator td, .table .highlighted.seperator:nth-child(even) td:nth-child(odd) {
-  background-color: #3fbde1;
-  /* will be "on top", if browser supports it */
-  background-image: linear-gradient(to left, #53c4e4, #27b5dd);
-  /* these will reset other properties, like background-position, but it does know what you mean */
-  background: #3fbde1;
-  background: linear-gradient(to left, #53c4e4, #27b5dd);
-  border-top: #27b5dd 1px solid;
-  border-bottom: #27b5dd 2px solid;
-  color: #333333;
-}
-
-.table .disabled.seperator td, .table .disabled.seperator:nth-child(even) td:nth-child(odd) {
-  background-color: #d4d4d4;
-  /* will be "on top", if browser supports it */
-  background-image: linear-gradient(to left, #d8d8d8, #bebebe);
-  /* these will reset other properties, like background-position, but it does know what you mean */
-  background: #d4d4d4;
-  background: linear-gradient(to left, #d8d8d8, #bebebe);
-  border-top: #bebebe 1px solid;
-  border-bottom: #bebebe 2px solid;
-  color: #333333;
-}
-
-/**
-* Tables Row(Seperator + State):
-* ` .seperator.error` - An Error State on a table sep.
-* 
-*   @example
-*	<table class="table stripped">
-*		<thead>
-*			<tr>
-*				<th>table header</th>
-*				<th>table header</th>
-*				<th>table header</th>
-*			</tr>
-*		</thead>
-*		<tbody>
-*			<tr>
-*				<td> row 1  cell A</td>
-*				<td> row 1  cell B</td>
-*				<td> row 1  cell C</td>
-*			</tr>
-*			<tr class="seperator error">
-*				<td colspan='3'> Separator With Error</td>
-*			</tr>
-*			<tr>
-*				<td> row 1  cell A</td>
-*				<td> row 1  cell B</td>
-*				<td> row 1  cell C</td>
-*			</tr>
-*			<tr class="seperator info">
-*				<td colspan='3'> Separator With Info</td>
-*			</tr>
-*			<tr>
-*				<td> row 1  cell A</td>
-*				<td> row 1  cell B</td>
-*				<td> row 1  cell C</td>
-*			</tr>
-*		</tbody>
-*		<tfoot>
-*			<tr>
-*				<td colspan="3">footer cell</td>
-*			</tr>
-*		</tfoot>
-*	</table>
-*/
 /**
 * Tables (Sortable):
 * `.banded or .stripped` - tables witha soratable table header. 
@@ -8404,24 +8289,6 @@ input:checked + label > .switch-inactive {
 *   </label>
 *   </div>
 */
-/**
-* Switch (States): 
-* `.error-active` - Switches can be colored with a class [state]-active and [state]-inactive.
-* 
-*   @example
-*   <h3>Plain switch with `.error-active` and `.sucess-inactive` on the `.switch`</h3>
-*   <div class="switch-input-space row">
-*   <div class="switch warning-active error-inactive switch-2x">
-*   <input class="switch-input" id="active-inactive" type="checkbox" name="exampleSwitch">
-*   <label class="switch-paddle" for="active-inactive">
-*   <span class="show-for-sr">Do you like me?</span>
-*   <span class="switch-active" aria-hidden="true">Yes</span>
-*   <span class="switch-inactive" aria-hidden="true">No</span>
-*   </label>
-*   </div>
-*   <label  class="switch-value" for="active-inactive">.switch.error-active.warning-inactive/label>
-*   </div>
-*/
 .tooltip {
   background-color: #1a364f;
   z-index: 2000;
@@ -11249,7 +11116,7 @@ STATE TRUMPING CODE
   color: #c32231;
 }
 
-.nav-list.nav-checklist li.error, .nav-checklist.panel-selector li.error, .error .message-holder > .error, .hint .error, .error.inset .bar.close .action-btn, .error-inactive .switch-paddle, .error-active input:checked ~ .switch-paddle, .error.callout {
+.nav-list.nav-checklist li.error, .nav-checklist.panel-selector li.error, .error .message-holder > .error, .hint .error, .error.inset .bar.close .action-btn, .error.callout {
   background-color: #c32231;
 }
 
@@ -11265,7 +11132,7 @@ STATE TRUMPING CODE
   color: #E08514;
 }
 
-.nav-list.nav-checklist li.warning, .nav-checklist.panel-selector li.warning, .warning .message-holder > .warning, .hint .warning, .warning.inset .bar.close .action-btn, .warning-inactive .switch-paddle, .warning-active input:checked ~ .switch-paddle, .warning.callout {
+.nav-list.nav-checklist li.warning, .nav-checklist.panel-selector li.warning, .warning .message-holder > .warning, .hint .warning, .warning.inset .bar.close .action-btn, .warning.callout {
   background-color: #E08514;
 }
 
@@ -11281,7 +11148,7 @@ STATE TRUMPING CODE
   color: #14B057;
 }
 
-.nav-list.nav-checklist li.success, .nav-checklist.panel-selector li.success, .success .message-holder > .success, .hint .success, .success.inset .bar.close .action-btn, .success-inactive .switch-paddle, .success-active input:checked ~ .switch-paddle, .success.callout {
+.nav-list.nav-checklist li.success, .nav-checklist.panel-selector li.success, .success .message-holder > .success, .hint .success, .success.inset .bar.close .action-btn, .success.callout {
   background-color: #14B057;
 }
 
@@ -11297,7 +11164,7 @@ STATE TRUMPING CODE
   color: #a6a6a6;
 }
 
-.nav-list.nav-checklist li.info, .nav-checklist.panel-selector li.info, .info .message-holder > .info, .hint .info, .info.inset .bar.close .action-btn, .info-inactive .switch-paddle, .info-active input:checked ~ .switch-paddle, .info.callout {
+.nav-list.nav-checklist li.info, .nav-checklist.panel-selector li.info, .info .message-holder > .info, .hint .info, .info.inset .bar.close .action-btn, .info.callout {
   background-color: #a6a6a6;
 }
 
@@ -11313,7 +11180,7 @@ STATE TRUMPING CODE
   color: #22AFD7;
 }
 
-.nav-list.nav-checklist li.highlighted, .nav-checklist.panel-selector li.highlighted, .highlighted .message-holder > .highlighted, .hint .highlighted, .highlighted.inset .bar.close .action-btn, .highlighted-inactive .switch-paddle, .highlighted-active input:checked ~ .switch-paddle, .highlighted.callout {
+.nav-list.nav-checklist li.highlighted, .nav-checklist.panel-selector li.highlighted, .highlighted .message-holder > .highlighted, .hint .highlighted, .highlighted.inset .bar.close .action-btn, .highlighted.callout {
   background-color: #22AFD7;
 }
 
@@ -11329,7 +11196,7 @@ STATE TRUMPING CODE
   color: #cccccc;
 }
 
-.nav-list.nav-checklist li.disabled, .nav-checklist.panel-selector li.disabled, .disabled .message-holder > .disabled, .hint .disabled, .disabled.inset .bar.close .action-btn, .disabled-inactive .switch-paddle, .disabled-active input:checked ~ .switch-paddle, .disabled.callout {
+.nav-list.nav-checklist li.disabled, .nav-checklist.panel-selector li.disabled, .disabled .message-holder > .disabled, .hint .disabled, .disabled.inset .bar.close .action-btn, .disabled.callout {
   background-color: #cccccc;
 }
 
