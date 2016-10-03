@@ -470,7 +470,7 @@ body {
 *			</tr>
 *			<tr>
 *				<td><h3>Product Color</h3></td>
-*				<td style="background-color:#9a1267;"class="color-block">#9a1267</td>
+*				<td style="background-color:#198dae;"class="color-block">#198dae</td>
 *			</tr>
 *			<tr>
 *				<td><h3>Primary Color</h3></td>
@@ -509,7 +509,7 @@ body {
 }
 
 td.product-brand-color {
-  background-color: #9a1267;
+  background-color: #198dae;
 }
 
 td.brand-color {
@@ -1228,11 +1228,11 @@ h3 + .nav-list li, h3 + .panel-selector li, .small.nav-list li, .small.panel-sel
 strong, .strong {
   font-family: 'Open Sans', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: 700;
-  color: #4daded;
+  color: #25b6e0;
 }
 
 em, .emphasis {
-  color: #114d74;
+  color: #0d4757;
   font-family: 'Open Sans', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: 300;
   font-style: italic;
@@ -1242,7 +1242,7 @@ em, .emphasis {
 .subtle {
   font-family: 'Open Sans',  "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: 300;
-  color: #5d99c1;
+  color: #5993a4;
 }
 
 .block-margins {
@@ -1406,7 +1406,7 @@ ul li, ol li {
   color: #00386b;
 }
 .font .font--dropcase_2x {
-  color: #2199e8;
+  color: #198dae;
 }
 .font .font--lowercase, .font .font--uppercase, .font .font--numbers {
   white-space: pre-wrap;
@@ -1603,7 +1603,7 @@ ul li, ol li {
 *		<div class="content-padding">
 *			<h4 class="texture--name">Cross Hatched Ink</h4>
 *			<div class="texture--thumb">
-*				<div class="texture--holder" style="background-image:url(Assets/img/empty_diamond@2x.png);background-color:#2199e8"></div>
+*				<div class="texture--holder" style="background-image:url(Assets/img/empty_diamond@2x.png);background-color:#198dae"></div>
 *			</div>
 *			<ul class="no-bullet texture--cite">
 *				<li><strong>File Name: </strong><span class="text">empty_diamond@2x</span></li>
@@ -1615,7 +1615,7 @@ ul li, ol li {
 *		<div class="content-padding">
 *			<h4 class="texture--name">Cross Hatched Ink Tight</h4>
 *			<div class="texture--thumb">
-*				<div class="texture--holder" style="background-image:url(Assets/img/empty_diamond.png);background-color:#2199e8"></div>
+*				<div class="texture--holder" style="background-image:url(Assets/img/empty_diamond.png);background-color:#198dae"></div>
 *			</div>
 *			<ul class="no-bullet texture--cite">
 *				<li><strong>File Name: </strong><span class="text">empty_diamond</span></li>
@@ -1627,7 +1627,7 @@ ul li, ol li {
 *		<div class="content-padding">
 *			<h4 class="texture--name">Stripped Ink</h4>
 *			<div class="texture--thumb">
-*				<div class="texture--holder" style="background-image:url(Assets/img/empty_stripe@2x.png);background-color:#2199e8"></div>
+*				<div class="texture--holder" style="background-image:url(Assets/img/empty_stripe@2x.png);background-color:#198dae"></div>
 *			</div>
 *			<ul class="no-bullet texture--cite">
 *				<li><strong>File Name: </strong><span class="text">empty_stripe@2x.png</span></li>
@@ -1639,7 +1639,7 @@ ul li, ol li {
 *		<div class="content-padding">
 *			<h4 class="texture--name">Stripped Ink with Blue Color Bleed</h4>
 *			<div class="texture--thumb">
-*				<div class="texture--holder" style="background-image:url(Assets/img/empty_stripe-alt@2x.png);background-color:#2199e8"></div>
+*				<div class="texture--holder" style="background-image:url(Assets/img/empty_stripe-alt@2x.png);background-color:#198dae"></div>
 *			</div>
 *			<ul class="no-bullet texture--cite">
 *				<li><strong>File Name: </strong><span class="text">empty_stripe-alt@2x.png</span></li>
@@ -1651,7 +1651,7 @@ ul li, ol li {
 *		<div class="content-padding">
 *			<h4 class="texture--name">Stripped Ink Tight</h4>
 *			<div class="texture--thumb">
-*				<div class="texture--holder" style="background-image:url(Assets/img/empty_stripe.png);background-color:#2199e8"></div>
+*				<div class="texture--holder" style="background-image:url(Assets/img/empty_stripe.png);background-color:#198dae"></div>
 *			</div>
 *			<ul class="no-bullet texture--cite">
 *				<li><strong>File Name: </strong><span class="text">empty_stripe.png</span></li>
@@ -1709,7 +1709,7 @@ ul li, ol li {
 *   <h5 class="with-underline" style="background-color:grey; color:white; padding:.5em;"><span class="order-marker inverse">c</span>Header 5 Tag</h5>
 */
 .order-marker {
-  background-color: #2199e8;
+  background-color: #198dae;
   color: #fff;
   border-radius: 50%;
   display: inline-block;
@@ -1729,12 +1729,12 @@ ul li, ol li {
 }
 .order-marker.hollow {
   background-color: transparent;
-  border: 0.1em solid #2199e8;
-  color: #2199e8;
+  border: 0.1em solid #198dae;
+  color: #198dae;
 }
 .order-marker.inverse {
   background-color: #fff;
-  color: #2199e8;
+  color: #198dae;
 }
 
 /**
@@ -2158,7 +2158,7 @@ button:disabled.secondary, .input-space
   border-top-right-radius: 0;
   background-color: #fff;
   border-top: 1px #999999 solid;
-  border-bottom: 0.5em #999999 solid;
+  border-bottom: 0.45em #999999 solid;
   border-left: 1px #999999 solid;
   border-right: 1px #999999 solid;
   margin: 0;
@@ -2182,14 +2182,30 @@ button:disabled.secondary, .input-space
 }
 .tabs.tabs-primary li:hover {
   background-color: #fff;
-  border-color: #2199e8;
+  border-color: #198dae;
 }
 .tabs.tabs-primary li:hover a {
-  color: #2199e8;
+  color: #198dae;
+}
+.tabs.tabs-primary li.sucsess {
+  background-color: #3adb76;
+  border-right: 0 none;
+  border-left: 0 none;
+  border-top: 0 none;
+}
+.tabs.tabs-primary li.sucsess a {
+  color: #333333;
+}
+.tabs.tabs-primary li.sucsess:hover {
+  background-color: #fff;
+  border-color: #3adb76;
+}
+.tabs.tabs-primary li.sucsess:hover a {
+  color: #3adb76;
 }
 .tabs.tabs-primary li.selected {
-  background-color: #2199e8;
-  border-color: #2199e8;
+  background-color: #198dae;
+  border-color: #198dae;
   border-bottom-color: #00386b;
   border-right: 0 none;
   border-left: 0 none;
@@ -2211,7 +2227,7 @@ button:disabled.secondary, .input-space
   border-bottom: 10px solid #00386b;
 }
 .tabs.tabs-primary li.selected:hover {
-  background-color: #2199e8;
+  background-color: #198dae;
 }
 .tabs.tabs-primary li.selected:hover a {
   color: #fff;
@@ -2225,7 +2241,7 @@ button:disabled.secondary, .input-space
   cursor: not-allowed;
 }
 .tabs.tabs-primary li.icon.selected {
-  background-color: #2199e8;
+  background-color: #198dae;
 }
 .tabs.tabs-primary li.icon.selected a {
   color: #fff;
@@ -2252,7 +2268,7 @@ button:disabled.secondary, .input-space
   border-bottom-width: 1px;
 }
 .tabs.tabs-primary.reverse li.selected {
-  border-color: #2199e8;
+  border-color: #198dae;
   border-top-color: #00386b;
 }
 .tabs.tabs-primary.reverse li.selected a:after {
@@ -2424,7 +2440,7 @@ button:disabled.secondary, .input-space
   color: #333333;
 }
 .nav-list li.selected, .panel-selector li.selected {
-  background-color: #d3ebfa;
+  background-color: #c9edf7;
 }
 .nav-list li.selected, .panel-selector li.selected, .nav-list li.selected:hover a, .panel-selector li.selected:hover a {
   color: #333333;
@@ -2469,7 +2485,7 @@ button:disabled.secondary, .input-space
 *	</nav>
 */
 h1 + .nav-list, h1 + .panel-selector, .large.nav-list, .large.panel-selector {
-  border-top: #4daded 2px solid;
+  border-top: #25b6e0 2px solid;
   margin-top: -0.75rem;
   padding-top: 0.7rem;
   margin-bottom: 1.5rem;
@@ -2696,7 +2712,7 @@ h3 + .nav-list li, h3 + .panel-selector li, .small.nav-list li, .small.panel-sel
   overflow: hidden;
   width: 50px;
   height: 50px;
-  background: #4daded;
+  background: #25b6e0;
   -moz-border-radius: 25px;
   -webkit-border-radius: 25px;
   border-radius: 25px;
@@ -2759,7 +2775,7 @@ h3 + .nav-list li, h3 + .panel-selector li, .small.nav-list li, .small.panel-sel
   top: 8.33333px;
 }
 .section-nav:hover .circle {
-  background: #2199e8;
+  background: #198dae;
   border: 4px solid #fff;
   -webkit-box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.45);
   -moz-box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.45);
@@ -3311,7 +3327,7 @@ h3 + .nav-list li, h3 + .panel-selector li, .small.nav-list li, .small.panel-sel
 .question-inline .hint {
   border-top: 1px solid #e6e6e6;
   padding: .25rem;
-  background-color: #e9f5fd;
+  background-color: #e4f6fb;
 }
 
 /**
@@ -3362,9 +3378,9 @@ h3 + .nav-list li, h3 + .panel-selector li, .small.nav-list li, .small.panel-sel
   max-width: 600px;
 }
 .question-grid-based .input-holder input:focus, .question-grid-based .input-holder select:focus {
-  -webkit-box-shadow: inset 0px 0px 2px 2px #2199e8;
-  -moz-box-shadow: inset 0px 0px 2px 2px #2199e8;
-  box-shadow: inset 0px 0px 2px 2px #2199e8;
+  -webkit-box-shadow: inset 0px 0px 2px 2px #198dae;
+  -moz-box-shadow: inset 0px 0px 2px 2px #198dae;
+  box-shadow: inset 0px 0px 2px 2px #198dae;
 }
 .question-grid-based .label-holder .text {
   white-space: normal;
@@ -3625,7 +3641,7 @@ h3 + .nav-list li, h3 + .panel-selector li, .small.nav-list li, .small.panel-sel
   line-height: 2.17778em;
   margin-top: 0em;
   margin-bottom: 0em;
-  color: #2199e8;
+  color: #198dae;
   vertical-align: top;
   display: inline-block;
   margin-top: -.75em;
@@ -3642,7 +3658,7 @@ h3 + .nav-list li, h3 + .panel-selector li, .small.nav-list li, .small.panel-sel
 }
 
 .seq:hover {
-  color: #2a668e;
+  color: #266071;
   text-decoration: underline;
 }
 
@@ -4283,17 +4299,17 @@ h3 + .nav-list li, h3 + .panel-selector li, .small.nav-list li, .small.panel-sel
 .repeater .question-group {
   padding-top: 1.5em;
   padding-bottom: 1.85em;
-  border: 2px dotted #dce9f1;
+  border: 2px dotted #d5e6eb;
   margin-top: .5em;
   border-radius: .5em;
-  border-top: 2px soliddesaturate(#4daded, 40%);
-  border-bottom: 2px solid #75a5c5;
+  border-top: 2px soliddesaturate(#25b6e0, 40%);
+  border-bottom: 2px solid #579bae;
   background-image: url(../img/empty_stripe@2x.png);
-  background-color: #eaf2f6;
+  background-color: #e6f0f3;
   position: relative;
 }
 .repeater .question-group .answer.required .required-holder, .repeater .question-group .question.required .required-holder {
-  color: #2199e8;
+  color: #198dae;
 }
 .repeater .question-group .required-message {
   font-size: 0.6875rem;
@@ -4301,7 +4317,7 @@ h3 + .nav-list li, h3 + .panel-selector li, .small.nav-list li, .small.panel-sel
   position: absolute;
   top: -2px;
   right: -2px;
-  background-color: #75a5c5;
+  background-color: #579bae;
   color: #fff;
   -webkit-transition: background-color 0.8s;
   -moz-transition: background-color 0.8s;
@@ -4335,7 +4351,7 @@ h3 + .nav-list li, h3 + .panel-selector li, .small.nav-list li, .small.panel-sel
   padding: .5rem;
 }
 .repeater .repeater-action .add-new-repeater .text {
-  color: #2199e8;
+  color: #198dae;
   display: inline-block;
   padding-right: 2rem;
   font-size: 1rem;
@@ -4345,7 +4361,7 @@ h3 + .nav-list li, h3 + .panel-selector li, .small.nav-list li, .small.panel-sel
   padding: .35rem .75rem .45rem;
   border-radius: 4px;
   height: auto;
-  border: 2px solid #2199e8;
+  border: 2px solid #198dae;
   font-weight: 900;
 }
 .repeater .repeater-action .save {
@@ -4353,7 +4369,7 @@ h3 + .nav-list li, h3 + .panel-selector li, .small.nav-list li, .small.panel-sel
   position: relative;
   text-align: right;
   float: right;
-  background-color: #2199e8;
+  background-color: #198dae;
   color: white;
   text-decoration: none;
   margin-right: 1em;
@@ -4367,11 +4383,11 @@ h3 + .nav-list li, h3 + .panel-selector li, .small.nav-list li, .small.panel-sel
   background-color: white;
   border-radius: 4px;
   margin-left: 1em;
-  border-color: #4daded;
+  border-color: #25b6e0;
 }
 .repeater .repeater-action .clear:hover {
   background-color: #e6e6e6;
-  border-color: #2199e8;
+  border-color: #198dae;
 }
 
 .edit-mode.repeater .repeater-action .clear {
@@ -4619,7 +4635,7 @@ table a.button, table button, table .inline-list, table .nobutton {
   border-top: #e6e6e6 1px solid;
 }
 .table thead tr:last-child th {
-  border-bottom: 2px solid #2199e8;
+  border-bottom: 2px solid #198dae;
 }
 .table tbody tr:nth-child(even) {
   background-color: transparent;
@@ -4629,7 +4645,7 @@ table a.button, table button, table .inline-list, table .nobutton {
   padding: .25rem;
 }
 .table td .color-highlighted, .table th .color-highlighted {
-  color: #4daded;
+  color: #25b6e0;
 }
 .table td small, .table th small {
   font-size: 80%;
@@ -4682,7 +4698,7 @@ table a.button, table button, table .inline-list, table .nobutton {
 }
 
 .striped th:nth-child(odd), .striped td:nth-child(odd) {
-  background-color: #e9f5fd;
+  background-color: #e4f6fb;
 }
 
 .striped.desaturate th:nth-child(odd), .striped.desaturate td:nth-child(odd) {
@@ -4690,7 +4706,7 @@ table a.button, table button, table .inline-list, table .nobutton {
 }
 
 .striped tbody tr:nth-child(even) td:nth-child(odd) {
-  background-color: #e1e9ee;
+  background-color: #deeaed;
 }
 
 .striped.desaturate tbody tr:nth-child(even) td:nth-child(odd) {
@@ -4705,7 +4721,7 @@ table a.button, table button, table .inline-list, table .nobutton {
 }
 .striped tfoot td, .striped tfoot td:nth-child(odd), .banded tfoot td, .banded tfoot td:nth-child(odd) {
   color: #333333;
-  border-top: 1px solid #2199e8;
+  border-top: 1px solid #198dae;
   background-color: #cccccc;
 }
 
@@ -4826,14 +4842,14 @@ table a.button, table button, table .inline-list, table .nobutton {
   padding-bottom: 2.2px;
   padding-bottom: 0.1375rem;
   /* can be treated like a fallback */
-  background-color: #42a8eb;
+  background-color: #1faed7;
   /* will be "on top", if browser supports it */
-  background-image: linear-gradient(to left, #55b1ed, #279ce9);
+  background-image: linear-gradient(to left, #2fbae1, #1c9dc1);
   /* these will reset other properties, like background-position, but it does know what you mean */
-  background: #42a8eb;
-  background: linear-gradient(to left, #55b1ed, #279ce9);
-  border-top: #279ce9 1px solid;
-  border-bottom: #279ce9 2px solid;
+  background: #1faed7;
+  background: linear-gradient(to left, #2fbae1, #1c9dc1);
+  border-top: #1c9dc1 1px solid;
+  border-bottom: #1c9dc1 2px solid;
   color: #fff;
   font-family: 'Open Sans', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: 700;
@@ -5278,7 +5294,7 @@ tr:nth-child(even).disabled td {
 }
 .bar.close .action-btn {
   top: -1.1rem;
-  color: #2199e8;
+  color: #198dae;
 }
 .bar.jumpToTop {
   bottom: -2px;
@@ -5305,7 +5321,7 @@ tr:nth-child(even).disabled td {
   clear: both;
 }
 .collapsable-panel .bar.close {
-  border-top: 2px solid #2199e8;
+  border-top: 2px solid #198dae;
 }
 .collapsable-panel .bar.close .action-btn {
   background-color: white;
@@ -5344,13 +5360,13 @@ tr:nth-child(even).disabled td {
   float: right;
 }
 .collapsable-panel.inset .bar.close {
-  border-top: 7px solid #2199e8;
+  border-top: 7px solid #198dae;
   top: -2px;
 }
 .collapsable-panel.inset .bar.close .action-btn {
   top: 0;
   color: white;
-  background-color: #2199e8;
+  background-color: #198dae;
 }
 .collapsable-panel.inset .bar.jumpToTop {
   bottom: -2px;
@@ -5571,7 +5587,7 @@ table + div > .collapsable-panel {
   display: block;
 }
 .accordion .toggle .fa {
-  color: #4daded;
+  color: #25b6e0;
   -webkit-transition: .25s ease-in-out;
   -moz-transition: .25s ease-in-out;
   -o-transition: .25s ease-in-out;
@@ -5589,7 +5605,7 @@ table + div > .collapsable-panel {
   padding-left: .5rem;
 }
 .accordion .toggle:hover .fa {
-  color: #2199e8;
+  color: #198dae;
 }
 .accordion .toggle:hover .text {
   color: #333333;
@@ -5670,16 +5686,16 @@ table + div > .collapsable-panel {
   flex: felx-start 1 auto;
 }
 .panel-selector.active-focus {
-  -moz-box-shadow: inset 0 0 10px #2199e8;
-  -webkit-box-shadow: inset 0 0 10px #2199e8;
-  box-shadow: inset 0 0 10px #2199e8;
+  -moz-box-shadow: inset 0 0 10px #198dae;
+  -webkit-box-shadow: inset 0 0 10px #198dae;
+  box-shadow: inset 0 0 10px #198dae;
 }
 .panel-selector .paenl-selector-group-title {
   font-size: 18px;
   padding: .5em .75em;
   font-family: 'Open Sans', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: 700;
-  background-color: #2199e8;
+  background-color: #198dae;
   color: #fff;
 }
 .panel-selector ul {
@@ -5740,7 +5756,7 @@ li.selected .fa {
   margin-top: 0;
 }
 .button-group li.j-focused a.button, .button-group li.focused a.button {
-  background-color: #2199e8;
+  background-color: #198dae;
 }
 .button-group li.j-selected a.button, .button-group li.selected a.button {
   background-color: #14B057;
@@ -5846,7 +5862,7 @@ ul.toggle .toggle-position a {
   color: #333333;
 }
 ul.toggle .toggle-position:hover {
-  background-color: #2199e8;
+  background-color: #198dae;
   opacity: 1;
 }
 ul.toggle .toggle-position:hover a {
@@ -6097,7 +6113,7 @@ tr.highlight:nth-child(even) td.alert {
 }
 .recommendationTable thead th {
   padding: 5px;
-  border-bottom-color: #114d74;
+  border-bottom-color: #0d4757;
 }
 .recommendationTable thead small {
   display: block;
@@ -6126,7 +6142,7 @@ tr.highlight:nth-child(even) td.alert {
   margin: 0 auto;
   font-family: 'Open Sans', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: 700;
-  color: #114d74;
+  color: #0d4757;
 }
 .recommendationTable thead strong.left {
   margin-left: 0;
@@ -7347,7 +7363,7 @@ This file is generated by `grunt build`, do not edit it by hand.
 *   </div>
 **/
 .pagination-holder, .result-selector-holder {
-  border-top: 2px solid #2199e8;
+  border-top: 2px solid #198dae;
   max-width: 75rem;
   margin-left: auto;
   margin-right: auto;
@@ -7397,7 +7413,7 @@ This file is generated by `grunt build`, do not edit it by hand.
   padding: 0;
 }
 .pagination li.current a, .pagination li.current a:hover {
-  background-color: #2199e8;
+  background-color: #198dae;
   color: #fff;
 }
 .pagination li.arrow, .pagination li.action {
@@ -7437,7 +7453,7 @@ This file is generated by `grunt build`, do not edit it by hand.
 
 .pagination-holder.top, .top.result-selector-holder {
   border-top: 0 none;
-  border-bottom: 2px solid #2199e8;
+  border-bottom: 2px solid #198dae;
   margin-bottom: 1rem;
   max-width: 75rem;
   margin-left: auto;
@@ -7477,7 +7493,7 @@ This file is generated by `grunt build`, do not edit it by hand.
   max-width: none;
   margin: 1rem -1rem -1rem;
   margin: 1rem calc(-1rem - 1px) calc(-1rem - 1px);
-  background: #2199e8 url("../img/paper-texture.png");
+  background: #198dae url("../img/paper-texture.png");
 }
 .group-section-pagination-holder::before, .group-section-pagination-holder::after {
   content: ' ';
@@ -7498,22 +7514,22 @@ This file is generated by `grunt build`, do not edit it by hand.
 }
 .group-section-pagination-holder .pagination li.current a, .group-section-pagination-holder .pagination li.current a:hover {
   background-color: white;
-  color: #2199e8;
+  color: #198dae;
 }
 .group-section-pagination-holder .pagination li.arrow, .group-section-pagination-holder .pagination li.action {
   margin: 0;
   padding: .25rem;
-  background: #2a668e url("../img/paper-texture.png");
+  background: #266071 url("../img/paper-texture.png");
 }
 .group-section-pagination-holder .pagination li.arrow a, .group-section-pagination-holder .pagination li.action a {
-  background: #2a668e url("../img/paper-texture.png");
+  background: #266071 url("../img/paper-texture.png");
   color: #fff;
 }
 .group-section-pagination-holder .pagination li.arrow a:hover, .group-section-pagination-holder .pagination li.action a:hover {
-  background-color: #4daded;
+  background-color: #25b6e0;
 }
 .group-section-pagination-holder .pagination li.arrow.disable, .group-section-pagination-holder .pagination li.arrow.disable a, .group-section-pagination-holder .pagination li.arrow.disable a:hover, .group-section-pagination-holder .pagination li.action.disable, .group-section-pagination-holder .pagination li.action.disable a, .group-section-pagination-holder .pagination li.action.disable a:hover {
-  background-color: #7599b1;
+  background-color: #73959f;
   color: #666666;
 }
 .group-section-pagination-holder.top {
@@ -7669,10 +7685,10 @@ This file is generated by `grunt build`, do not edit it by hand.
 *   </div>
 */
 div.reveal {
-  border-top: 6px solid #2199e8;
+  border-top: 6px solid #198dae;
 }
 div.reveal .close-button {
-  background-color: #2199e8;
+  background-color: #198dae;
   color: #fff;
   padding: .25em .5em .5em .5em;
   top: 0;
@@ -7713,7 +7729,7 @@ div.reveal .close-button {
   user-select: none;
   touch-action: none;
   background-image: url("../img/billie-holiday.png");
-  border: 1px solid #518db4;
+  border: 1px solid #4d8797;
   border-radius: 6px;
   -webkit-box-shadow: inset 1px 1px 4px 2px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: inset 1px 1px 4px 2px rgba(0, 0, 0, 0.2);
@@ -7727,7 +7743,7 @@ div.reveal .close-button {
   display: inline-block;
   max-width: 100%;
   height: 0.5rem;
-  background-color: #2199e8;
+  background-color: #198dae;
   transition: all 0.2s ease-in-out;
   background-image: url("../img/billie-holiday.png");
   -webkit-box-shadow: inset 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
@@ -7753,7 +7769,7 @@ div.reveal .close-button {
   touch-action: manipulation;
   border-radius: 0;
   border-radius: 1000px;
-  border: 1px solid #2a668e;
+  border: 1px solid #266071;
   -webkit-box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
   box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
@@ -8029,7 +8045,7 @@ input:checked + label > .switch-inactive {
   color: #e6e6e6;
 }
 .switch.value-switch .switch-paddle, .switch.value-switch input:checked .switch-paddle, .switch-group .switch .switch-paddle, .switch-group .switch input:checked .switch-paddle {
-  background-color: #2199e8;
+  background-color: #198dae;
 }
 
 .switch.switch-2x .switch-active, .switch.switch-4x .switch-active {
@@ -8472,7 +8488,7 @@ input:checked + label > .switch-inactive {
 }
 
 .typeahead:focus {
-  border: 2px solid #2199e8;
+  border: 2px solid #198dae;
 }
 
 .tt-query {
@@ -8514,8 +8530,8 @@ input:checked + label > .switch-inactive {
   font-weight: 700;
 }
 .tt-suggestion.tt-cursor {
-  color: #e9f5fd;
-  background-color: #2199e8;
+  color: #e8f4f7;
+  background-color: #198dae;
 }
 .tt-suggestion.tt-cursor strong {
   color: #fff;
@@ -8586,9 +8602,9 @@ input:checked + label > .switch-inactive {
 }
 
 .ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {
-  border: 1px solid #2199e8;
+  border: 1px solid #198dae;
   background-image: none;
-  background: #4daded;
+  background: #25b6e0;
   font-weight: normal;
   color: #ffffff;
 }
@@ -9088,7 +9104,7 @@ input:checked + label > .switch-inactive {
 }
 .ui-accordion-override .ui-icon-triangle-1-e:before {
   content: "\f138";
-  color: #4daded;
+  color: #25b6e0;
 }
 .ui-accordion-override .ui-icon-triangle-1-s:before {
   content: "\f13a";
@@ -9099,7 +9115,7 @@ input:checked + label > .switch-inactive {
   border-radius: 0;
 }
 .ui-accordion-override .ui-accordion-content.ui-accordion-content-active {
-  border-top: 2px solid #4daded;
+  border-top: 2px solid #25b6e0;
   border-bottom: 2px solid #666666;
 }
 
@@ -9160,7 +9176,7 @@ input:checked + label > .switch-inactive {
 
 .with-group-sections.highlighted, .page.with-group-sections.highlighted {
   background-image: url("../img/billie-holiday-speck.png");
-  background-color: #90ccf4;
+  background-color: #77d2eb;
 }
 .with-group-sections .page-wrapper, .page.with-group-sections .page-wrapper {
   -webkit-transition: padding 1s;
@@ -9251,7 +9267,7 @@ input:checked + label > .switch-inactive {
 }
 .group-section-tab-holder, .group-section-tab-holder .nav.tabs, .colored-paper, .colored-paper .nav.tabs {
   background-image: url("../img/construction-paper.png");
-  background-color: #2199e8;
+  background-color: #198dae;
 }
 @media only screen and (max-width: 1024px) and (max-height: 768px) {
   .group-section-tab-holder, .colored-paper {
@@ -9288,18 +9304,18 @@ input:checked + label > .switch-inactive {
   padding: 2px 10px 0;
   border: 0 none;
   background-image: url("../img/construction-paper.png");
-  background-color: #2199e8;
+  background-color: #198dae;
 }
 .group-section-tab-holder .nav.tabs li, .colored-paper .nav.tabs li {
   border-radius: .4em;
   display: inline-block;
   margin: .4em .05em .2em;
   vertical-align: bottom;
-  background-color: #d3ebfa;
+  background-color: #c9edf7;
   padding: .2em .3em;
 }
 .group-section-tab-holder .nav.tabs li:hover, .colored-paper .nav.tabs li:hover {
-  background-color: #b1dbf7;
+  background-color: #a0dff1;
 }
 .group-section-tab-holder .nav.tabs li.selected, .colored-paper .nav.tabs li.selected {
   border-radius: .5em;
@@ -10367,12 +10383,12 @@ cite {
   padding-bottom: 200px;
 }
 .score-bar-holder .data-container.primary-color {
-  background-color: #2199e8;
+  background-color: #198dae;
   color: #fff;
   border-color: #fff;
 }
 .score-bar-holder .data-container.secondary-color {
-  background-color: #267ab2;
+  background-color: #1da3c9;
   color: #fff;
   border-color: #fff;
 }
@@ -10559,7 +10575,7 @@ cite {
 *   <h5 class="with-underline" style="background-color:grey; color:white; padding:.5em;"><span class="order-marker inverse">c</span>Header 5 Tag</h5>
 */
 .order-marker {
-  background-color: #2199e8;
+  background-color: #198dae;
   color: #fff;
   border-radius: 50%;
   display: inline-block;
@@ -10579,12 +10595,12 @@ cite {
 }
 .order-marker.hollow {
   background-color: transparent;
-  border: 0.1em solid #2199e8;
-  color: #2199e8;
+  border: 0.1em solid #198dae;
+  color: #198dae;
 }
 .order-marker.inverse {
   background-color: #fff;
-  color: #2199e8;
+  color: #198dae;
 }
 
 h1.error, h2.error, h3.error, h4.error, h5.error, h6.error, p.error, a.error, li.error, blockquote.error, h1.warning, h2.warning, h3.warning, h4.warning, h5.warning, h6.warning, p.warning, a.warning, li.warning, blockquote.warning, h1.success, h2.success, h3.success, h4.success, h5.success, h6.success, p.success, a.success, li.success, blockquote.success, h1.info, h2.info, h3.info, h4.info, h5.info, h6.info, p.info, a.info, li.info, blockquote.info, h1.highlighted, h2.highlighted, h3.highlighted, h4.highlighted, h5.highlighted, h6.highlighted, p.highlighted, a.highlighted, li.highlighted, blockquote.highlighted, h1.disabled, h2.disabled, h3.disabled, h4.disabled, h5.disabled, h6.disabled, p.disabled, a.disabled, li.disabled, blockquote.disabled {
@@ -10606,7 +10622,7 @@ h1.error, h2.error, h3.error, h4.error, h5.error, h6.error, p.error, a.error, li
 *  	<p class="highlighted"><strong>Paragraph that is a highlighted State.</strong>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
 */
 h1.with-underline {
-  border-bottom: #4daded 2px solid;
+  border-bottom: #25b6e0 2px solid;
 }
 
 h2.with-underline {
@@ -10614,7 +10630,7 @@ h2.with-underline {
 }
 
 h3.with-underline {
-  border-bottom: #94cef4 1px dotted;
+  border-bottom: #7cd3ec 1px dotted;
 }
 
 h4.with-underline {
@@ -10839,7 +10855,7 @@ h6 blockquote, h6 .sub-line {
 }
 
 .text-highlight-color {
-  color: #4daded !important;
+  color: #25b6e0 !important;
 }
 
 /**
@@ -10853,18 +10869,18 @@ h6 blockquote, h6 .sub-line {
  *		p this paragraph with line after.
  */
 .group-divide {
-  border-top: #4daded 1px dotted;
+  border-top: #25b6e0 1px dotted;
   margin-top: .5rem;
   padding-top: 1rem;
 }
 
 .group-divide-bottom {
-  border-bottom: #4daded 1px dotted;
+  border-bottom: #25b6e0 1px dotted;
   margin-bottom: .5rem;
 }
 
 .group-divide-auto + .group-divide-auto {
-  border-top: #4daded 1px dotted;
+  border-top: #25b6e0 1px dotted;
   margin-top: 1rem;
   padding-top: .5rem;
 }
@@ -10882,14 +10898,14 @@ h6 blockquote, h6 .sub-line {
 *		
 */
 .link {
-  color: #4daded;
+  color: #25b6e0;
   text-decoration: underline;
 }
 .link.icon {
   text-decoration: none;
 }
 .link:hover {
-  color: #71bef0;
+  color: #51c5e6;
   text-decoration: underline;
 }
 .link.reverse {

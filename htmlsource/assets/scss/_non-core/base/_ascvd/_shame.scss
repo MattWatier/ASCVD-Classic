@@ -99,9 +99,10 @@
 .page.header{
 	.logo img{
 			margin:7px 10px 0; width:320px;
+			@include bp(sm){margin:7px 10px 0; width:280px;}
 			@include bp(md){margin:7px 10px 0; width:335px;}
-			@include bp(lg){margin:6px 10px 0; width:500px;}
-			@include bp(xl){margin:15px 15px 0; width:575px;}
+			@include bp(lg){margin:6px 10px 0; width:456px;}
+			@include bp(xl){margin:15px 15px 0; width:514px;}
 	}
 
 }

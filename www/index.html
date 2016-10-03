@@ -164,7 +164,6 @@
             <div class="button-group selectable expanded small radius" data-bind="foreach:$root.FormData.sex">
                 <a href="" style="white-space: nowrap;" class="button small" data-bind="click:function(){appmodel.Form().Sex(label)},css:{'selected':$root.Form().Sex() == label}" ><i class="fa fa-check"></i><span data-bind="text:label"></span></a>
             </div>
-
         </div>
     </div>
     <div class="message-holder">
@@ -207,7 +206,7 @@
         </label>
     </div>
     <div class="input-holder">
-            <div class="button-group selectable small radius race--group-button" data-bind="foreach:$root.FormData.race">
+            <div class="button-group selectable expanded small radius race--group-button" data-bind="foreach:$root.FormData.race">
                 <a href="" class="button small" data-bind="click:function(){appmodel.Form().Race(label)},css:{'selected':$root.Form().Race() == label}" ><i class="fa fa-check"></i><span data-bind="text:label"></span></a>
             </div>
 
@@ -330,10 +329,17 @@
             </label>
         </div>
         <div class="input-holder">
-            <div class="button-group selectable expanded small radius" data-bind="foreach:$root.FormData.diabetic">
-                <a href="" style="white-space: nowrap;" class="button small" data-bind="click:function(){appmodel.Form().Diabetic(value)},css:{'selected':$root.Form().Diabetic() == value}" ><i class="fa fa-check"></i><span data-bind="text:label"></span></a>
+
+            <div class="switch-input-space">
+                <div class="switch switch-2x radius small">
+                    <input class="switch-input" id="check-diabetic" type="checkbox" name="diabetic" data-bind="checked: Form().Diabetic, checkedValue:'Diabetic'" >
+                    <label class="switch-paddle" for="check-diabetic">
+                        <span class="show-for-sr">Diabetic</span>
+                        <span class="switch-active" aria-hidden="true"> Yes </span>
+                        <span class="switch-inactive" aria-hidden="true"> No </span>
+                    </label>
+                </div>
             </div>
-            
         </div>
         <div class="hint"></div>
     </div>
@@ -344,8 +350,21 @@
             </label>
         </div>
         <div class="input-holder">
-            <div class="button-group selectable expanded small radius" data-bind="foreach:$root.FormData.smoker">
-                <a href="" style="white-space: nowrap;" class="button small" data-bind="click:function(){appmodel.Form().Smoker(value)},css:{'selected':$root.Form().Smoker() == value}" ><i class="fa fa-check"></i><span data-bind="text:label"></span></a>
+
+            
+            <div class="switch-input-space">
+                <div class="switch switch-2x radius small">
+                    <input class="switch-input" id="check-smoker" type="checkbox" name="smoker" data-bind="checked: Form().Smoker, checkedValue:'Smoker'" >
+                    <label class="switch-paddle" for="check-smoker">
+                        <span class="show-for-sr">Smoker</span>
+                        <span class="switch-active" aria-hidden="true">
+                        Yes
+                        </span>
+                        <span class="switch-inactive" aria-hidden="true">
+                        No
+                        </span>
+                    </label>
+                </div>
             </div>
             
         </div>
@@ -360,9 +379,21 @@
         <div class="input-holder">
 
             
-                <div class="button-group selectable expanded small radius expanded" data-bind="foreach:$root.FormData.diabetic">
-                    <a href="" style="white-space: nowrap;" class="button small" data-bind="click:function(){appmodel.Form().Hypertension(value)},css:{'selected':$root.Form().Hypertension() == value}" ><i class="fa fa-check"></i><span data-bind="text:label"></span></a>
-                </div>
+
+               
+               <div class="switch-input-space"> 
+                <div class="switch switch-2x radius small">
+                    <input class="switch-input" id="check-hypertension" type="checkbox" name="hypertension" data-bind="checked: Form().Hypertension, checkedValue:'Hypertension'">
+                    <label class="switch-paddle" for="check-hypertension">
+                        <span class="show-for-sr">Hypertension Treatment</span>
+                        <span class="switch-active" aria-hidden="true">
+                        Yes
+                        </span>
+                        <span class="switch-inactive" aria-hidden="true">
+                        No
+                        </span>
+                    </label>
+                </div></div> 
                       
             
         </div>

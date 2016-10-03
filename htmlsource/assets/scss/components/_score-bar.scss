@@ -1,5 +1,5 @@
 $score-bar-primary-color:rebrand-color($primary-color,2);
-$score-bar-secondary-color:mix($score-bar-primary-color,$black,70);
+$score-bar-secondary-color:color($score-bar-primary-color,90);
 $score-bar-size-unit:10px;
 $max-width:$global-width;
 
@@ -103,13 +103,13 @@ $max-width:$global-width;
         $size-unit:$score-bar-size-unit * .9;
         font-size: $size-unit;  
         .data-container{
-            padding-top:$size-unit*.5;
-            padding-right:$size-unit*.5;
-            padding-left:$size-unit*.5;
+            padding-top:$size-unit * .5;
+            padding-right:$size-unit * .5;
+            padding-left:$size-unit * .5;
             @include bp(sm-height){
-                padding-top:$size-unit*.75;
-                padding-right:$size-unit*.75;
-                padding-left:$size-unit*.75;
+                padding-top:$size-unit * .75;
+                padding-right:$size-unit * .75;
+                padding-left:$size-unit * .75;
             }
             @include bp(md-height){
                 padding-top:$size-unit;

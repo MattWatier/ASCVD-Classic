@@ -6,10 +6,10 @@
             </label>
         </div>
         <div class="input-holder">
-            <div class="button-group selectable expanded small radius" data-bind="foreach:$root.FormData.diabetic">
+{% comment %}            <div class="button-group selectable expanded small radius" data-bind="foreach:$root.FormData.diabetic">
                 <a href="" style="white-space: nowrap;" class="button small" data-bind="click:function(){appmodel.Form().Diabetic(value)},css:{'selected':$root.Form().Diabetic() == value}" ><i class="fa fa-check"></i><span data-bind="text:label"></span></a>
-            </div>
-            {% comment %}<div class="switch-input-space">
+            </div>{% endcomment %}
+            <div class="switch-input-space">
                 <div class="switch switch-2x radius small">
                     <input class="switch-input" id="check-diabetic" type="checkbox" name="diabetic" data-bind="checked: Form().Diabetic, checkedValue:'Diabetic'" >
                     <label class="switch-paddle" for="check-diabetic">
@@ -18,7 +18,7 @@
                         <span class="switch-inactive" aria-hidden="true"> No </span>
                     </label>
                 </div>
-            </div>{% endcomment %}
+            </div>
         </div>
         <div class="hint"></div>
     </div>
@@ -29,10 +29,10 @@
             </label>
         </div>
         <div class="input-holder">
-            <div class="button-group selectable expanded small radius" data-bind="foreach:$root.FormData.smoker">
+{% comment %}            <div class="button-group selectable expanded small radius" data-bind="foreach:$root.FormData.smoker">
                 <a href="" style="white-space: nowrap;" class="button small" data-bind="click:function(){appmodel.Form().Smoker(value)},css:{'selected':$root.Form().Smoker() == value}" ><i class="fa fa-check"></i><span data-bind="text:label"></span></a>
-            </div>
-            {% comment %}
+            </div>{% endcomment %}
+            
             <div class="switch-input-space">
                 <div class="switch switch-2x radius small">
                     <input class="switch-input" id="check-smoker" type="checkbox" name="smoker" data-bind="checked: Form().Smoker, checkedValue:'Smoker'" >
@@ -47,7 +47,7 @@
                     </label>
                 </div>
             </div>
-            {% endcomment %}
+            
         </div>
         <div class="hint"></div>
     </div>
@@ -60,10 +60,10 @@
         <div class="input-holder">
 
             
-                <div class="button-group selectable expanded small radius expanded" data-bind="foreach:$root.FormData.diabetic">
+{% comment %}                <div class="button-group selectable expanded small radius expanded" data-bind="foreach:$root.FormData.diabetic">
                     <a href="" style="white-space: nowrap;" class="button small" data-bind="click:function(){appmodel.Form().Hypertension(value)},css:{'selected':$root.Form().Hypertension() == value}" ><i class="fa fa-check"></i><span data-bind="text:label"></span></a>
-                </div>
-               {% comment %}
+                </div>{% endcomment %}
+               
                <div class="switch-input-space"> 
                 <div class="switch switch-2x radius small">
                     <input class="switch-input" id="check-hypertension" type="checkbox" name="hypertension" data-bind="checked: Form().Hypertension, checkedValue:'Hypertension'">
@@ -77,7 +77,7 @@
                         </span>
                     </label>
                 </div></div> 
-               {% endcomment %}       
+                      
             
         </div>
         <div class="hint"></div>

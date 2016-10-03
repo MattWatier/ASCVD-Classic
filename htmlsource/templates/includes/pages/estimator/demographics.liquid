@@ -14,14 +14,6 @@
             <div class="button-group selectable expanded small radius" data-bind="foreach:$root.FormData.sex">
                 <a href="" style="white-space: nowrap;" class="button small" data-bind="click:function(){appmodel.Form().Sex(label)},css:{'selected':$root.Form().Sex() == label}" ><i class="fa fa-check"></i><span data-bind="text:label"></span></a>
             </div>
-{% comment %}            <select name="inputSex" id="inputSex" data-bind="
-                options:$root.FormData.sex,
-                optionsText:'label',
-                optionsValue:'label',
-                optionsCaption:'Select',
-                value:$root.Form().Sex
-                ">
-            </select>{% endcomment %}
         </div>
     </div>
     <div class="message-holder">
@@ -64,7 +56,7 @@
         </label>
     </div>
     <div class="input-holder">
-            <div class="button-group selectable small radius race--group-button" data-bind="foreach:$root.FormData.race">
+            <div class="button-group selectable expanded small radius race--group-button" data-bind="foreach:$root.FormData.race">
                 <a href="" class="button small" data-bind="click:function(){appmodel.Form().Race(label)},css:{'selected':$root.Form().Race() == label}" ><i class="fa fa-check"></i><span data-bind="text:label"></span></a>
             </div>
 {% comment %}        <select name="inputRace" id="inputRace" data-bind="
