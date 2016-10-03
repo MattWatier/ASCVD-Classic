@@ -6376,6 +6376,12 @@ STATE TRUMPING CODE
   margin: 7px 10px 0;
   width: 320px;
 }
+@media only screen and (min-width: 320px) {
+  .page.header .logo img {
+    margin: 7px 10px 0;
+    width: 280px;
+  }
+}
 @media only screen and (min-width: 767px) {
   .page.header .logo img {
     margin: 7px 10px 0;
@@ -6385,13 +6391,13 @@ STATE TRUMPING CODE
 @media only screen and (min-width: 1024px) {
   .page.header .logo img {
     margin: 6px 10px 0;
-    width: 500px;
+    width: 456px;
   }
 }
 @media only screen and (min-width: 1200px) {
   .page.header .logo img {
     margin: 15px 15px 0;
-    width: 575px;
+    width: 514px;
   }
 }
 

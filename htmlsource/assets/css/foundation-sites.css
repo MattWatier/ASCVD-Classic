@@ -1831,10 +1831,10 @@ select {
     margin-left: 0;
     margin-right: 0; }
   .button.primary {
-    background-color: #2199e8;
+    background-color: #198dae;
     color: #FFF; }
     .button.primary:hover, .button.primary:focus {
-      background-color: #147cc0;
+      background-color: #14718b;
       color: #FFF; }
   .button.secondary {
     background-color: #777;
@@ -1861,19 +1861,19 @@ select {
       background-color: #da3116;
       color: #FFF; }
   .button.hollow {
-    border: 1px solid #2199e8;
-    color: #2199e8; }
+    border: 1px solid #198dae;
+    color: #198dae; }
     .button.hollow, .button.hollow:hover, .button.hollow:focus {
       background-color: transparent; }
     .button.hollow:hover, .button.hollow:focus {
-      border-color: #0c4d78;
-      color: #0c4d78; }
+      border-color: #0d4757;
+      color: #0d4757; }
     .button.hollow.primary {
-      border: 1px solid #2199e8;
-      color: #2199e8; }
+      border: 1px solid #198dae;
+      color: #198dae; }
       .button.hollow.primary:hover, .button.hollow.primary:focus {
-        border-color: #0c4d78;
-        color: #0c4d78; }
+        border-color: #0d4757;
+        color: #0d4757; }
     .button.hollow.secondary {
       border: 1px solid #777;
       color: #777; }
@@ -1974,7 +1974,7 @@ select {
     width: 0;
     height: 0;
     border: inset 6px;
-    border-color: #2199e8 transparent transparent;
+    border-color: #198dae transparent transparent;
     border-top-style: solid;
     border-bottom-width: 0;
     position: absolute;
@@ -2093,10 +2093,10 @@ select {
       .button-group.expanded .button:first-child:nth-last-child(6):last-child, .button-group.expanded .button:first-child:nth-last-child(6):first-child:nth-last-child(6) ~ .button:last-child {
         margin-right: -6px; }
   .button-group.primary .button {
-    background-color: #2199e8;
+    background-color: #198dae;
     color: #FFF; }
     .button-group.primary .button:hover, .button-group.primary .button:focus {
-      background-color: #147cc0;
+      background-color: #14718b;
       color: #FFF; }
   .button-group.secondary .button {
     background-color: #777;
@@ -2154,7 +2154,7 @@ select {
   .callout > :last-child {
     margin-bottom: 0; }
   .callout.primary {
-    background-color: #def0fc; }
+    background-color: #d6f1f9; }
   .callout.secondary {
     background-color: #ebebeb; }
   .callout.success {
@@ -2260,7 +2260,7 @@ select {
     margin-left: 1rem; }
   .menu .active > a {
     color: #FFF;
-    background: #2199e8; }
+    background: #198dae; }
 
 .menu-text {
   font-weight: bold;
@@ -2350,7 +2350,7 @@ select {
     width: 0;
     height: 0;
     border: inset 6px;
-    border-color: transparent transparent transparent #2199e8;
+    border-color: transparent transparent transparent #198dae;
     border-left-style: solid;
     border-right-width: 0;
     position: absolute;
@@ -2364,7 +2364,7 @@ select {
   width: 0;
   height: 0;
   border: inset 6px;
-  border-color: transparent #2199e8 transparent transparent;
+  border-color: transparent #198dae transparent transparent;
   border-right-style: solid;
   border-left-width: 0;
   border-left-width: 0;
@@ -2911,7 +2911,7 @@ body {
   margin-bottom: 1rem;
   border-radius: 0; }
   .progress.primary .progress-meter {
-    background-color: #2199e8; }
+    background-color: #198dae; }
   .progress.secondary .progress-meter {
     background-color: #777; }
   .progress.success .progress-meter {
@@ -3295,11 +3295,11 @@ table.hover tr:nth-of-type(even):hover {
     background: transparent; }
 
 .tabs.primary {
-  background: #2199e8; }
+  background: #198dae; }
   .tabs.primary > li > a {
     color: #FFF; }
     .tabs.primary > li > a:hover, .tabs.primary > li > a:focus {
-      background: #1893e4; }
+      background: #1b98bc; }
 
 .tabs-title {
   float: left; }
